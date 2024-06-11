@@ -7,3 +7,5 @@ def check_palidrome(string):
           if element != element[::-1]:
            return False
         return True
+string = ['radar', 'level', 'oko']
+palidrome=check_palidrome(string)
