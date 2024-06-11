@@ -9,3 +9,4 @@ def check_palidrome(string):
         return True
 string = ['radar', 'level', 'oko']
 palidrome=check_palidrome(string)
+print(palidrome)
