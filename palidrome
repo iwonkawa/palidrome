@@ -1,0 +1,5 @@
+def check_palidrome(string):
+        """funtion to check if the string is a palidrome or not
+           using predefined funtion to reverse to string
+          check if both strings are equal or not
+          if yes then return True if not than return False"""
