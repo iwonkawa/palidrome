@@ -5,3 +5,5 @@ def check_palidrome(string):
           if yes then return True if not than return False"""
         for element in string:
           if element != element[::-1]:
+           return False
+        return True
