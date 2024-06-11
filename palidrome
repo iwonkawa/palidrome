@@ -3,3 +3,5 @@ def check_palidrome(string):
            using predefined funtion to reverse to string
           check if both strings are equal or not
           if yes then return True if not than return False"""
+        for element in string:
+          if element != element[::-1]:
